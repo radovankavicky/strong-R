@@ -3,7 +3,8 @@
 theme_strong <- theme_bw() +
                 theme(
                       axis.text = element_text(size = 14),
-                      text = element_text(family="Inconsolata"),
+                      axis.title = element_text(size = 16, family="Signika-Semibold"),
+                      text = element_text(family="Signika"),
                       legend.key = element_rect(fill = "navy"),
                       legend.background = element_rect(fill = "white"),
                       panel.grid.major = element_blank(),
@@ -12,3 +13,4 @@ theme_strong <- theme_bw() +
                       strip.background = element_rect(fill = "white", colour = NA),
                       strip.text.x = element_text(size = 14, face = "bold", colour = "black")
                 )
+
