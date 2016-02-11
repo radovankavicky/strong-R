@@ -3,7 +3,7 @@
 theme_strong <- theme_bw() +
                 theme(
                       axis.text = element_text(size = 14),
-                      text = element_text(family="Open Sans"),
+                      text = element_text(family="Inconsolata"),
                       legend.key = element_rect(fill = "navy"),
                       legend.background = element_rect(fill = "white"),
                       panel.grid.major = element_blank(),
