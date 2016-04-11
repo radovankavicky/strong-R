@@ -3,8 +3,8 @@
 theme_strong <- theme_bw() +
                 theme(
                       axis.text = element_text(size = 14),
-                      axis.title = element_text(size = 16, family="Signika-Semibold"),
-                      text = element_text(family="Signika"),
+                      axis.title = element_text(size = 16, family="Helvetica"),
+                      text = element_text(family="Helvetica"),
                       legend.key = element_rect(fill = "navy"),
                       legend.background = element_rect(fill = "white"),
                       panel.grid.major = element_blank(),
